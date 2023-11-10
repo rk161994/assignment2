@@ -1,0 +1,12 @@
+list_num= []
+finalList=[]
+for i in range (1,11):
+    list_num.append(i)
+        
+print(list_num)
+for j in list_num:
+    if j%2==0:
+        continue
+    else:
+        finalList.append(j)
+print(finalList)
